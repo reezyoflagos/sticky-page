@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: purple;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+}
+nav .navbar2 {
+  font-size: 20px;
+  padding-right: 20px;
+  align-items: center;
+  margin: 30px;
+}
+nav .navbar2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav .navbar2 ul li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+nav .navbar2 ul li a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 576px) {
+  nav img {
+    width: 150px;
+  }
+  nav a {
+    display: none;
+  }
+}
+nav .responsive {
+  color: whitesmoke;
+}
+@media (max-width: 576px) {
+  nav .responsive {
+    text-align: center;
+  }
+}
+
+section {
+  background-color: purple;
+}
+
+.page1 {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.page1 .inpage1 {
+  color: white;
+}
+.page1 .inpage1 a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .page1 {
+    display: grid;
+    text-align: center;
+  }
+  .page1 img {
+    display: none;
+    text-align: center;
+  }
+}
+
+.seen {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  margin: 40px;
+}
+@media (max-width: 576px) {
+  main {
+    display: grid;
+  }
+}
+
+.way {
+  text-align: center;
+}
+.way button {
+  color: whitesmoke;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: purple;
+  text-align: center;
+  margin: 30px;
+}
+
+.text {
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 40px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+article li {
+  padding: 10px;
+}
+@media (max-width: 576px) {
+  article {
+    display: grid;
+    font-size: 19px;
+  }
+  article h1 {
+    padding-left: 90px;
+  }
+  article li {
+    padding-left: 70px;
+  }
+  article img {
+    width: 400px;
+  }
+}/*# sourceMappingURL=style.css.map */
