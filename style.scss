@@ -64,7 +64,8 @@ nav{
 .responsive{
     color: whitesmoke;
     @media(max-width:576px){
-    text-align: center;}
+    text-align: center;
+margin-right: 30px;}
     @media(min-width:768px){
         display: none;
     }
@@ -108,9 +109,6 @@ section{
             display: none;
             
             
-        }
-        img{
-            width: 20px;
         }
        
     }

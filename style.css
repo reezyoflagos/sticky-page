@@ -48,6 +48,7 @@ nav .responsive {
 @media (max-width: 576px) {
   nav .responsive {
     text-align: center;
+    margin-right: 30px;
   }
 }
 @media (min-width: 768px) {
@@ -80,9 +81,6 @@ nav .responsive {
   }
   .page1 img {
     display: none;
-  }
-  .page1 img {
-    width: 20px;
   }
 }
 @media (max-width: 992px) {
