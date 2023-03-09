@@ -48,7 +48,7 @@ nav .responsive {
 @media (max-width: 576px) {
   nav .responsive {
     text-align: center;
-    margin-right: 30px;
+    margin-right: 0px;
   }
 }
 @media (min-width: 768px) {
