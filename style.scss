@@ -78,12 +78,13 @@ nav{
 
                 
 section{
-    background-color:purple;
+    
 }
 .page1{
     display: flex;
     align-items: center;
     padding:100px;
+    background-color: purple;
     
     .inpage1{
         color:white;
@@ -107,6 +108,9 @@ section{
             display: none;
             
             
+        }
+        img{
+            width: 20px;
         }
        
     }

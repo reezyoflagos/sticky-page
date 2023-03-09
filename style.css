@@ -56,14 +56,11 @@ nav .responsive {
   }
 }
 
-section {
-  background-color: purple;
-}
-
 .page1 {
   display: flex;
   align-items: center;
   padding: 100px;
+  background-color: purple;
 }
 .page1 .inpage1 {
   color: white;
@@ -83,6 +80,9 @@ section {
   }
   .page1 img {
     display: none;
+  }
+  .page1 img {
+    width: 20px;
   }
 }
 @media (max-width: 992px) {
