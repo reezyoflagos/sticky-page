@@ -7,7 +7,14 @@
 body {
   overflow: hidden;
   overflow: scroll;
+  position: relative;
 }
+@media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+}
+
 nav {
   display: flex;
   background-color: purple;

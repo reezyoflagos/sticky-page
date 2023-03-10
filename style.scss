@@ -6,7 +6,9 @@
 }
 body{overflow: hidden;
     overflow:scroll;
+    position:relative;
     @media(max-width:576px){
+        width: 100%;
         
     }
 }
