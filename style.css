@@ -111,7 +111,6 @@ nav .responsive {
 main {
   display: flex;
   text-align: center;
-  margin: 40px;
 }
 @media (max-width: 576px) {
   main {
