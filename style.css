@@ -8,10 +8,11 @@ body {
   overflow: hidden;
   overflow: scroll;
   position: relative;
+  background-color: whitesmoke;
 }
 @media (max-width: 576px) {
   body {
-    width: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -20,6 +21,7 @@ nav {
   background-color: purple;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 3rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,9 +29,7 @@ nav {
 }
 nav .navbar2 {
   font-size: 20px;
-  padding-right: 20px;
-  align-items: center;
-  margin: 30px;
+  padding: 20px;
 }
 nav .navbar2 ul {
   display: flex;
@@ -46,6 +46,9 @@ nav .navbar2 ul li a {
   color: white;
 }
 @media (max-width: 576px) {
+  nav {
+    padding: 1rem;
+  }
   nav img {
     width: 150px;
   }
